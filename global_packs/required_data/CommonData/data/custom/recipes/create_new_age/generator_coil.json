@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "w": {
+      "item": "create_new_age:copper_wire"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "A": {
+      "item": "create:andesite_alloy_block"
+    }
+  },
+  "pattern": [
+    " www ",
+    "wwIww",
+    "wIAIw",
+    "wwIww",
+    " www "
+  ],
+  "result": {
+    "count": 2,
+    "item": "create_new_age:generator_coil"
+  }
+}

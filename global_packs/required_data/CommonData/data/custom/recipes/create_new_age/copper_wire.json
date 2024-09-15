@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[{"item": "createaddition:copper_wire"}],
+		[{"item": "createaddition:copper_wire"}],
+		[{"item": "createaddition:copper_wire"}],
+		[{"item": "createaddition:copper_wire"}]
+	],
+	"result": {
+		"item": "create_new_age:copper_wire",
+		"count": 2
+	}
+}

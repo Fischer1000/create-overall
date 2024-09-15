@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "create_new_age:nuclear_fuel"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "vintageimprovements:curving",
+		"mode": 1,
+		"ingredients": [
+			{
+			  "tag": "forge:plates/iron"
+			}
+		],
+		"results": [
+			{
+			  "item": "minecraft:bucket"
+			}
+		]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_new_age:incomplete_fuel"
+        },
+        [
+          {
+            "item": "create_new_age:radioactive_thorium"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create_new_age:incomplete_fuel"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_new_age:incomplete_fuel"
+        },
+        [
+          {
+            "tag": "forge:plates/iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create_new_age:incomplete_fuel"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_new_age:incomplete_fuel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_new_age:incomplete_fuel"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_new_age:incomplete_fuel"
+  }
+}

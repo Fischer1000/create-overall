@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "create_new_age:copper_circuit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "tag": "forge:plates/iron"
+        },
+        [
+          {
+            "item": "minecraft:quartz"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_new_age:blank_circuit"
+        },
+        [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_new_age:blank_circuit"
+        },
+        [
+          {
+            "item": "createaddition:copper_wire"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create_new_age:blank_circuit"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_new_age:blank_circuit"
+  }
+}

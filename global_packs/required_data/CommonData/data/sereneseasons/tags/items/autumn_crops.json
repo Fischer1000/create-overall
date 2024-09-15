@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"miners_delight:cave_carrot",
+		"minecraft:beetroot",
+		"farmersdelight:cabbage",
+		"farmersdelight:pumpkin_slice"
+	]
+}
